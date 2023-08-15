@@ -1,0 +1,73 @@
+@prefix : <http://purl.org/ejp-rd/metadata-model/v1/example-rdf/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix loc: <http://localhost/> .
+
+loc:new a foaf:Organisation ;
+    dct:description "ERKNet is the European Reference Network for Rare Kidney Diseases, a consortium of 72 expert pediatric and adult nephrology centers in 24 European countries providing healthcare to more than 70,000 patients with rare disorders of the kidneys. ERKNet actively supports clinical research to improve diagnosis and risk prediction and advance the development of new therapies for patients with rare kidney disorders.  " ;
+    dct:isPartOf <http://example.org/catalog/b75c916c-86d8-4f82-9f23-8d14806b8653> ;
+    dct:spatial :location ;
+    dct:title "ERKNet" ;
+    foaf:name "ERKNet" ;
+    foaf:page <https://www.erknet.org/> .
+
+:location a dct:Location ;
+    dct:description "Im Neuenheimer Feld 130.3, D-69120 Heidelberg" ;
+    dct:title "Heidelberg, Germany" .
+-----------------------------------------------------------------------
+@prefix : <http://purl.org/ejp-rd/metadata-model/v1/example-rdf/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix ejp: <http://purl.org/ejp-rd/vocabulary/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix loc: <http://localhost/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sio: <http://semanticscience.org/resource/> .
+
+loc:new a ejp:PatientRegistry ;
+    dct:description "ERKReg, a Web-based registry for all patients with rare kidney diseases. The main objectives of this core registry are to generate epidemiological information, identify current patient cohort for clinical research, explore diagnostic and therapeutic management practices, and monitor treatment performance and patient’s outcomes." ;
+    dct:isPartOf <http://example.org/catalog/b75c916c-86d8-4f82-9f23-8d14806b8653> ;
+    dct:publisher <file:///home/jdwijnbergen/fdp_populator/scripts/> ;
+    dct:title "ERKReg" ;
+    ejp:populationCoverage :population_coverage ;
+    dcat:theme <http://purl.obolibrary.org/obo/FMA_7203>,
+        <http://purl.obolibrary.org/obo/OMIT_0010426>,
+        <http://www.ebi.ac.uk/efo/EFO_0003086> ;
+    foaf:page <https://www.erknet.org/patients-registry/registry-mission> .
+
+:population_coverage a sio:SIO_001166 ;
+    rdfs:label "International" .
+-----------------------------------------------------------------------
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix loc: <http://localhost/> .
+
+loc:new a dcat:Dataset ;
+    dct:description "ERKReg, a Web-based registry for all patients with rare kidney diseases. The main objectives of this core registry are to generate epidemiological information, identify current patient cohort for clinical research, explore diagnostic and therapeutic management practices, and monitor treatment performance and patient’s outcomes." ;
+    dct:hasVersion "1" ;
+    dct:isPartOf <http://example.org/catalog/b75c916c-86d8-4f82-9f23-8d14806b8653> ;
+    dct:publisher <http://example.org/organisation/430bbeb2-d6bd-43f5-a166-064e53376843> ;
+    dct:title "European Rare Kidney Disease Registry" ;
+    dcat:keyword "kidney",
+        "kidney disease",
+        "nephrology",
+        "rare kidney disease" ;
+    dcat:theme <http://purl.obolibrary.org/obo/FMA_7203>,
+        <http://purl.obolibrary.org/obo/OMIT_0010426>,
+        <http://purl.org/ejp-rd/vocabulary/VPDiscoverable>,
+        <http://www.ebi.ac.uk/efo/EFO_0003086> .
+-----------------------------------------------------------------------
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix loc: <http://localhost/> .
+
+loc:new a dcat:Distribution ;
+    dct:description "https://www.erknet.org/fileadmin/files/user_upload/Data_Access_Policy_ERKReg_v2.pdf" ;
+    dct:hasVersion "" ;
+    dct:isPartOf <http://example.org/dataset/9248555f-f5df-415c-a4bd-03c016fd0c26> ;
+    dct:publisher <http://example.org/organisation/430bbeb2-d6bd-43f5-a166-064e53376843> ;
+    dct:title "European Rare Kidney Disease Registry" ;
+    dcat:accessURL <https://www.erknet.org/patients-registry/data-access-requests> .
+
+
+New distribution created: http://example.org/distribution/64614eb5-787e-4b81-be3c-a2f64e2cbd26
