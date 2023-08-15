@@ -1,0 +1,139 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix language: <http://id.loc.gov/vocabulary/iso639-1/> .
+@prefix loc: <http://localhost/> .
+
+loc:new a dcat:Dataset,
+        dcat:Resource ;
+    dct:description "Peptide abundances of amniotic fluid samples from CAKUT and non-CAKUT pregnancies." ;
+    dct:hasVersion "1" ;
+    dct:isPartOf <http://example.org/catalog/b75c916c-86d8-4f82-9f23-8d14806b8653> ;
+    dct:language language:en ;
+    dct:publisher <https://orcid.org/0000-0002-0637-9950> ;
+    dct:title "EJPRD WP13 CAKUT peptidome" ;
+    dcat:keyword "CAKUT",
+        "amniotic fluit",
+        "congenital",
+        "fetus",
+        "homo sapiens",
+        "infant",
+        "kidney",
+        "peptidome",
+        "pregnancy",
+        "urinary tract" ;
+    dcat:theme <http://purl.bioontology.org/ontology/MESH/C566906>,
+        <http://purl.bioontology.org/ontology/MESH/D000653>,
+        <http://purl.bioontology.org/ontology/NCBITAXON/9606>,
+        <http://purl.bioontology.org/ontology/OMIM/MTHU065720>,
+        <http://purl.jp/bio/4/id/200906099706747756> .
+
+<https://orcid.org/0000-0002-0637-9950> a foaf:Agent ;
+    foaf:name "https://orcid.org/0000-0002-0637-9950" .
+-----------------------------------------------------------------------
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix language: <http://id.loc.gov/vocabulary/iso639-1/> .
+@prefix loc: <http://localhost/> .
+
+loc:new a dcat:Distribution,
+        dcat:Resource ;
+    dct:description "Mendely distribution of peptide abundances data of amniotic fluid samples from CAKUT and non-CAKUT pregnancies." ;
+    dct:hasVersion "1" ;
+    dct:isPartOf <http://example.org/dataset/a05b8c4a-4076-4462-a882-558ad37510a1> ;
+    dct:language language:en ;
+    dct:publisher <https://orcid.org/0000-0002-0637-9950> ;
+    dct:title "Access distribution of : EJPRD WP13 CAKUT peptidome Mendeley" ;
+    dcat:accessURL <https://data.mendeley.com/datasets/pnk73m22xn/draft?a=a7b5bdf8-8014-4d8e-b6e2-b1184a833517> ;
+    dcat:mediaType "text/html" .
+
+<https://orcid.org/0000-0002-0637-9950> a foaf:Agent ;
+    foaf:name "https://orcid.org/0000-0002-0637-9950" .
+-----------------------------------------------------------------------
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix language: <http://id.loc.gov/vocabulary/iso639-1/> .
+@prefix loc: <http://localhost/> .
+
+loc:new a dcat:Dataset,
+        dcat:Resource ;
+    dct:description "Proteome data from amniotic fluid samples of CAKUT and non-CAKUT pregnancies." ;
+    dct:hasVersion "1" ;
+    dct:isPartOf <http://example.org/catalog/b75c916c-86d8-4f82-9f23-8d14806b8653> ;
+    dct:language language:en ;
+    dct:publisher <https://orcid.org/0000-0002-0637-9950> ;
+    dct:title "EJPRD WP13 CAKUT proteome" ;
+    dcat:keyword "CAKUT",
+        "amniotic fluit",
+        "congenital",
+        "fetus",
+        "homo sapiens",
+        "infant",
+        "kidney",
+        "pregnancy",
+        "proteome",
+        "urinary tract" ;
+    dcat:theme <http://purl.bioontology.org/ontology/MESH/C566906>,
+        <http://purl.bioontology.org/ontology/MESH/D000653>,
+        <http://purl.bioontology.org/ontology/NCBITAXON/9606>,
+        <http://purl.bioontology.org/ontology/OMIM/MTHU065720>,
+        <http://www.ebi.ac.uk/efo/EFO_0010579> .
+
+<https://orcid.org/0000-0002-0637-9950> a foaf:Agent ;
+    foaf:name "https://orcid.org/0000-0002-0637-9950" .
+-----------------------------------------------------------------------
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix language: <http://id.loc.gov/vocabulary/iso639-1/> .
+@prefix loc: <http://localhost/> .
+
+loc:new a dcat:Distribution,
+        dcat:Resource ;
+    dct:description "Proteome data at ProteomeXchange Consortium" ;
+    dct:hasVersion "1" ;
+    dct:isPartOf <http://example.org/dataset/65fb46bb-fd7e-4f6b-a536-e551f1cf1447> ;
+    dct:language language:en ;
+    dct:publisher <https://orcid.org/0000-0002-0637-9950> ;
+    dct:title "Access distribution of : Distribution of EJPRD WP13 CAKUT proteome data at ProteomeXchange Consortium" ;
+    dcat:accessURL <http://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD022926> ;
+    dcat:mediaType "text/html" .
+
+<https://orcid.org/0000-0002-0637-9950> a foaf:Agent ;
+    foaf:name "https://orcid.org/0000-0002-0637-9950" .
+-----------------------------------------------------------------------
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix language: <http://id.loc.gov/vocabulary/iso639-1/> .
+@prefix loc: <http://localhost/> .
+@prefix wd: <https://www.wikidata.org/wiki/> .
+
+loc:new a dcat:Dataset,
+        dcat:Resource ;
+    dct:description "miRNome data from amniotic fluid samples of CAKUT and non-CAKUT pregnancies." ;
+    dct:hasVersion "1" ;
+    dct:isPartOf <http://example.org/catalog/b75c916c-86d8-4f82-9f23-8d14806b8653> ;
+    dct:language language:en ;
+    dct:publisher <https://orcid.org/0000-0002-0637-9950> ;
+    dct:title "EJPRD WP13 CAKUT mirnome" ;
+    dcat:keyword "CAKUT",
+        "amniotic fluit",
+        "congenital",
+        "fetus",
+        "homo sapiens",
+        "infant",
+        "kidney",
+        "mirnome",
+        "pregnancy",
+        "urinary tract" ;
+    dcat:theme <http://purl.bioontology.org/ontology/MESH/C566906>,
+        <http://purl.bioontology.org/ontology/MESH/D000653>,
+        <http://purl.bioontology.org/ontology/NCBITAXON/9606>,
+        <http://purl.bioontology.org/ontology/OMIM/MTHU065720>,
+        wd:Q113841154 .
+
+<https://orcid.org/0000-0002-0637-9950> a foaf:Agent ;
+    foaf:name "https://orcid.org/0000-0002-0637-9950" .
