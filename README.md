@@ -1,4 +1,4 @@
-# populator-materials
+# FAIR Data Point Populator use cases
 Materials for the FAIR Data Point Populator paper in each step of the process. The repository contains input spreadsheets, intermediate RDF files, and links to the resulting entries in FAIR Data Point.
 
 Flow of information:
