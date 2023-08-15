@@ -1,11 +1,11 @@
 # FAIR Data Point Populator use cases
-Materials for the FAIR Data Point Populator paper in each step of the process. The repository contains input spreadsheets, intermediate RDF files, and links to the resulting entries in FAIR Data Point.
+Example use cases for the FAIR Data Point Populator paper. The repository contains input spreadsheets, intermediate RDF files, and links to the resulting entries in FAIR Data Point.
 
 Flow of information:
 **Spreadsheet -> RDF -> FAIR Data Point**
 
 ## Spreadsheets
-The spreadsheets as used in the FAIR Data Point Populator are provided in each of the folders.
+The spreadsheets as used in the FAIR Data Point Populator are provided in each of the folders. For the use cases using the FDP template, the dataset and distribution sheets were exported.
 
 ## RDF
 Each directory also contains the RDF that results from a dry run. For demonstration purposes, FDP links are replaced with example.org links, and the RDF is concatenated into one file.
