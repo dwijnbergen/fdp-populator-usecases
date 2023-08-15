@@ -1,0 +1,177 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix language: <http://id.loc.gov/vocabulary/iso639-1/> .
+@prefix loc: <http://localhost/> .
+
+loc:new a dcat:Dataset,
+        dcat:Resource ;
+    dct:description "Gene expression for Inclusion Body Myositis" ;
+    dct:hasVersion "1" ;
+    dct:isPartOf <http://example.org/catalog/b75c916c-86d8-4f82-9f23-8d14806b8653> ;
+    dct:language language:en ;
+    dct:publisher <https://orcid.org/0000-0002-7449-6657> ;
+    dct:title "IBM Gene Expression Raw" ;
+    dcat:keyword "Gene expression",
+        "Homo Sapiens",
+        "Inclusion Body Myositis",
+        "Person with amputation",
+        "RNA-Seq",
+        "RNA-seq read count analysis",
+        "Skeletal muscle tissue" ;
+    dcat:theme <http://edamontology.org/operation_3563>,
+        <http://edamontology.org/topic_0203>,
+        <http://edamontology.org/topic_3170>,
+        <http://purl.obolibrary.org/obo/DOID_3429>,
+        <http://purl.obolibrary.org/obo/GSSO_009183>,
+        <http://purl.obolibrary.org/obo/NCBITaxon_9606>,
+        <http://purl.obolibrary.org/obo/UBERON_0001134> .
+
+<https://orcid.org/0000-0002-7449-6657> a foaf:Agent ;
+    foaf:name "https://orcid.org/0000-0002-7449-6657" .
+-----------------------------------------------------------------------
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix language: <http://id.loc.gov/vocabulary/iso639-1/> .
+@prefix loc: <http://localhost/> .
+
+loc:new a dcat:Dataset,
+        dcat:Resource ;
+    dct:description "Gene expression for Inclusion Body Myositis" ;
+    dct:hasVersion "1" ;
+    dct:isPartOf <http://example.org/catalog/b75c916c-86d8-4f82-9f23-8d14806b8653> ;
+    dct:language language:en ;
+    dct:publisher <https://orcid.org/0000-0002-7449-6657> ;
+    dct:title "IBM Gene Expression Normalized" ;
+    dcat:keyword "Gene expression",
+        "Homo Sapiens",
+        "Inclusion Body Myositis",
+        "Person with amputation",
+        "RNA-Seq",
+        "RNA-seq read count analysis",
+        "Skeletal muscle tissue" ;
+    dcat:theme <http://edamontology.org/operation_3563>,
+        <http://edamontology.org/topic_0203>,
+        <http://edamontology.org/topic_3170>,
+        <http://purl.obolibrary.org/obo/DOID_3429>,
+        <http://purl.obolibrary.org/obo/GSSO_009183>,
+        <http://purl.obolibrary.org/obo/NCBITaxon_9606>,
+        <http://purl.obolibrary.org/obo/UBERON_0001134> .
+
+<https://orcid.org/0000-0002-7449-6657> a foaf:Agent ;
+    foaf:name "https://orcid.org/0000-0002-7449-6657" .
+-----------------------------------------------------------------------
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix language: <http://id.loc.gov/vocabulary/iso639-1/> .
+@prefix loc: <http://localhost/> .
+
+loc:new a dcat:Dataset,
+        dcat:Resource ;
+    dct:description "microRNA expression for Inclusion Body Myositis" ;
+    dct:hasVersion "1" ;
+    dct:isPartOf <http://example.org/catalog/b75c916c-86d8-4f82-9f23-8d14806b8653> ;
+    dct:language language:en ;
+    dct:publisher <https://orcid.org/0000-0002-7449-6657> ;
+    dct:title "IBM MicroRNA Expression Raw" ;
+    dcat:keyword "Homo Sapiens",
+        "Inclusion Body Myositis",
+        "MicroRNA Sequencing",
+        "Person with amputation",
+        "RNA-seq read count analysis",
+        "Skeletal muscle tissue" ;
+    dcat:theme <http://edamontology.org/operation_3563>,
+        <http://purl.obolibrary.org/obo/DOID_3429>,
+        <http://purl.obolibrary.org/obo/GSSO_009183>,
+        <http://purl.obolibrary.org/obo/NCBITaxon_9606>,
+        <http://purl.obolibrary.org/obo/NCIT_C156057>,
+        <http://purl.obolibrary.org/obo/UBERON_0001134> .
+
+<https://orcid.org/0000-0002-7449-6657> a foaf:Agent ;
+    foaf:name "https://orcid.org/0000-0002-7449-6657" .
+-----------------------------------------------------------------------
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix language: <http://id.loc.gov/vocabulary/iso639-1/> .
+@prefix loc: <http://localhost/> .
+
+loc:new a dcat:Dataset,
+        dcat:Resource ;
+    dct:description "microRNA expression for Inclusion Body Myositis" ;
+    dct:hasVersion "1" ;
+    dct:isPartOf <http://example.org/catalog/b75c916c-86d8-4f82-9f23-8d14806b8653> ;
+    dct:language language:en ;
+    dct:publisher <https://orcid.org/0000-0002-7449-6657> ;
+    dct:title "IBM MicroRNA Expression Normalized" ;
+    dcat:keyword "Homo Sapiens",
+        "Inclusion Body Myositis",
+        "MicroRNA Sequencing",
+        "Person with amputation",
+        "RNA-seq read count analysis",
+        "Skeletal muscle tissue" ;
+    dcat:theme <http://edamontology.org/operation_3563>,
+        <http://purl.obolibrary.org/obo/DOID_3429>,
+        <http://purl.obolibrary.org/obo/GSSO_009183>,
+        <http://purl.obolibrary.org/obo/NCBITaxon_9606>,
+        <http://purl.obolibrary.org/obo/NCIT_C156057>,
+        <http://purl.obolibrary.org/obo/UBERON_0001134> .
+
+<https://orcid.org/0000-0002-7449-6657> a foaf:Agent ;
+    foaf:name "https://orcid.org/0000-0002-7449-6657" .
+-----------------------------------------------------------------------
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix language: <http://id.loc.gov/vocabulary/iso639-1/> .
+@prefix loc: <http://localhost/> .
+
+loc:new a dcat:Dataset,
+        dcat:Resource ;
+    dct:description "Whole exome sequencing in Inclusion Body Myositis" ;
+    dct:hasVersion "1" ;
+    dct:isPartOf <http://example.org/catalog/b75c916c-86d8-4f82-9f23-8d14806b8653> ;
+    dct:language language:en ;
+    dct:publisher <https://orcid.org/0000-0002-7449-6657> ;
+    dct:title "IBM Whole Exome Sequencing" ;
+    dcat:keyword "Blood",
+        "Exome sequencing",
+        "Homo Sapiens",
+        "Inclusion Body Myositis",
+        "Pair sequence alignment",
+        "Person with amputation",
+        "Variant calling" ;
+    dcat:theme <http://edamontology.org/data_1381>,
+        <http://edamontology.org/operation_3227>,
+        <http://edamontology.org/topic_3676>,
+        <http://purl.obolibrary.org/obo/DOID_3429>,
+        <http://purl.obolibrary.org/obo/GSSO_009183>,
+        <http://purl.obolibrary.org/obo/NCBITaxon_9606>,
+        <http://purl.obolibrary.org/obo/UBERON_0000178> .
+
+<https://orcid.org/0000-0002-7449-6657> a foaf:Agent ;
+    foaf:name "https://orcid.org/0000-0002-7449-6657" .
+-----------------------------------------------------------------------
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix language: <http://id.loc.gov/vocabulary/iso639-1/> .
+@prefix loc: <http://localhost/> .
+
+loc:new a dcat:Dataset,
+        dcat:Resource ;
+    dct:description "Sample information for Inclusion Body Myositis" ;
+    dct:hasVersion "1" ;
+    dct:isPartOf <http://example.org/catalog/b75c916c-86d8-4f82-9f23-8d14806b8653> ;
+    dct:language language:en ;
+    dct:publisher <https://orcid.org/0000-0002-7449-6657> ;
+    dct:title "IBM Sample Information" ;
+    dcat:keyword "Inclusion Body myositis",
+        "Person with amputation" ;
+    dcat:theme <http://purl.obolibrary.org/obo/DOID_3429>,
+        <http://purl.obolibrary.org/obo/GSSO_009183> .
+
+<https://orcid.org/0000-0002-7449-6657> a foaf:Agent ;
+    foaf:name "https://orcid.org/0000-0002-7449-6657" .
